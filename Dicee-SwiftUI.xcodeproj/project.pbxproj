@@ -11,6 +11,7 @@
 		0AA24E1E2568EDA40025C294 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24E1D2568EDA40025C294 /* HomeView.swift */; };
 		0AA24E202568EDA60025C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA24E1F2568EDA60025C294 /* Assets.xcassets */; };
 		0AA24E232568EDA60025C294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA24E222568EDA60025C294 /* Preview Assets.xcassets */; };
+		0ADB7ADA2568F15500B331C3 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB7AD92568F15500B331C3 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0AA24E1F2568EDA60025C294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA24E222568EDA60025C294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AA24E242568EDA60025C294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADB7AD92568F15500B331C3 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,8 @@
 		0A1BB3772568F08300121378 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0AA24E1D2568EDA40025C294 /* HomeView.swift */,
+				0ADB7AD92568F15500B331C3 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -61,7 +65,6 @@
 			children = (
 				0A1BB3772568F08300121378 /* Views */,
 				0AA24E1B2568EDA40025C294 /* Dicee_SwiftUIApp.swift */,
-				0AA24E1D2568EDA40025C294 /* HomeView.swift */,
 				0AA24E1F2568EDA60025C294 /* Assets.xcassets */,
 				0AA24E242568EDA60025C294 /* Info.plist */,
 				0AA24E212568EDA60025C294 /* Preview Content */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADB7ADA2568F15500B331C3 /* BackgroundView.swift in Sources */,
 				0AA24E1E2568EDA40025C294 /* HomeView.swift in Sources */,
 				0AA24E1C2568EDA40025C294 /* Dicee_SwiftUIApp.swift in Sources */,
 			);
